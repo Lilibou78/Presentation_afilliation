@@ -1,5 +1,5 @@
 body{
-	background-color: blanchedalmond;
+	background-color: rgb(252, 252, 252);
 	margin: auto 0; 
 }
 
@@ -7,22 +7,14 @@ h1{
 	text-align: center;
 }
 
-
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-
-.main-nav{
-	display: flex;
-}
-
 .main-ul{
+	display: flex;
 	list-style: none;
 }
-
+.main-nav{
+	display: flex;
+	justify-content: center;
+}
 li{
 	margin: 10px;
 }
