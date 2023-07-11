@@ -1,0 +1,32 @@
+body{
+	background-color: blanchedalmond;
+	margin: auto 0; 
+}
+
+h1{
+	text-align: center;
+}
+
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.main-nav{
+	display: flex;
+}
+
+.main-ul{
+	list-style: none;
+}
+
+li{
+	margin: 10px;
+}
+#produitVendu{
+	height: 400px;
+	width: 300px;
+}
